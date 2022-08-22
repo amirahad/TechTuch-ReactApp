@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TechTuch-ReactApp/static/css/main.4e0a3348.css",
+    "main.js": "/TechTuch-ReactApp/static/js/main.396adb18.js",
+    "static/media/slider-1.png": "/TechTuch-ReactApp/static/media/slider-1.0e696a1ee97722b26637.png",
+    "static/media/blog-06.jpg": "/TechTuch-ReactApp/static/media/blog-06.facb6c6d67d2eed878b9.jpg",
+    "static/media/blog-04.jpg": "/TechTuch-ReactApp/static/media/blog-04.b9a18696f1c412bfc8ae.jpg",
+    "static/media/blog-02.jpg": "/TechTuch-ReactApp/static/media/blog-02.4a26573e939e856e724b.jpg",
+    "static/media/blog-05.jpg": "/TechTuch-ReactApp/static/media/blog-05.1ae3dfc776d7180c0546.jpg",
+    "static/media/blog-07.jpg": "/TechTuch-ReactApp/static/media/blog-07.76a6cc414a4cd1889934.jpg",
+    "static/media/error.png": "/TechTuch-ReactApp/static/media/error.4119eb0133db732ae9b8.png",
+    "static/media/blog-03.jpg": "/TechTuch-ReactApp/static/media/blog-03.9fd3ee5204cd15b9ea3f.jpg",
+    "static/media/blog-08.jpg": "/TechTuch-ReactApp/static/media/blog-08.ff2a04081f8ffcc33bf8.jpg",
+    "static/media/blog-01.jpg": "/TechTuch-ReactApp/static/media/blog-01.9f7bddfab078062d0e71.jpg",
+    "static/media/blog-09.jpg": "/TechTuch-ReactApp/static/media/blog-09.99179ca19ec1e9daf07e.jpg",
+    "index.html": "/TechTuch-ReactApp/index.html",
+    "main.4e0a3348.css.map": "/TechTuch-ReactApp/static/css/main.4e0a3348.css.map",
+    "main.396adb18.js.map": "/TechTuch-ReactApp/static/js/main.396adb18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e0a3348.css",
+    "static/js/main.396adb18.js"
+  ]
+}
