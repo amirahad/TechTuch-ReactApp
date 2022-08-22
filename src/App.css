@@ -40,6 +40,13 @@ a{
   color: #3830b2;
   border-bottom: #3830b2 solid 1px;
 }
+.navbar-nav{
+  background-color: #fff;
+}
+.active{
+  color: #3830b2;
+  border-bottom: #3830b2 solid 1px;
+}
 .title{
   color: #565385;
 }

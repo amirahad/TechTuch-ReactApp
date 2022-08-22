@@ -1,31 +1,32 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 export default function Navbar() {
     return (
-        <div className='header'>
+        <div className='header' id='header'>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-10 mx-auto">
-                        <nav className="navbar navbar-expand-sm navbar-transparent">
+                        <nav className="navbar navbar-expand-sm navbar-light">
                             <div className="container">
-                                <a className="navbar-brand" href >LAWDE</a>
+                                <Link className="navbar-brand" to="hero" >TechTuch</Link>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div className="navbar-nav ms-auto">
-                                        <ul className="nav navbar-nav navbar-right">
-                                            <li className="nav-item active">
-                                                <a className="nav-link" href>Home</a>
+                                        <ul className="nav navbar-nav ">
+                                            <li className="nav-item">
+                                                <Link className="nav-link" to="hero" activeClass="active" spy={true} smooth={true} duration="1000">Home</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href=".service">Services</a>
+                                                <Link className="nav-link" to="services" activeClass="active" spy={true} smooth={true} duration="1000">Services</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href>About</a>
+                                                <Link className="nav-link" to="about" activeClass="active" spy={true} smooth={true} duration="1000">About</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href >Contact</a>
+                                                <Link className="nav-link" to="contact" activeClass="active" spy={true} smooth={true} duration="1000">Contact</Link>
                                             </li>
 
                                         </ul>

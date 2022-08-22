@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "./Button";
 
 export default function Contact() {
     const [ data,setData ] = useState({
@@ -26,7 +27,7 @@ export default function Contact() {
     
 
   return (
-    <div className="services py-5">
+    <div className="services py-5" id="contact">
       <div className="mb-5">
         <h1 className="text-center title">Contact Us</h1>
       </div>
@@ -92,10 +93,11 @@ export default function Contact() {
                   rows="3"
                 ></textarea>
               </div>
-              <div className="col-12">
-                <button className="button px-5" type="submit">
-                  Submit
+              <div className="col-12 mt-5">
+                <button type="submit" style={{ width: '0', border: 'none',outline: "none"}}>
+                  <Button text="Submit"/>
                 </button>
+                
               </div>
             </form>
           </div>
